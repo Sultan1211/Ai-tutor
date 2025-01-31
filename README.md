@@ -1,74 +1,37 @@
-<<<<<<< HEAD
-# Getting Started with Create React App
+# AI Tutor Pro
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+AI Tutor Pro is an innovative educational platform that uses artificial intelligence to provide personalized tutoring and learning experiences. The application is built using a **React** frontend and a **Python-based backend**, making it both interactive and intelligent. 
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- **AI-Powered Tutor**: Provides real-time tutoring on various subjects like programming, mathematics, science, and more.
+- **Interactive UI**: A dynamic and engaging user interface developed with React and styled with Tailwind CSS.
+- **Backend Integration**: Built using Python (Flask/FastAPI) to handle AI-based responses, logic processing, and database management.
+- **Real-Time Feedback**: Gives users immediate feedback on their learning progress and suggestions for improvement.
 
-### `npm start`
+## Tech Stack
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Frontend
+- **React.js**: For building the interactive user interface.
+- **Tailwind CSS**: For fast and responsive styling.
+- **Framer Motion**: For smooth animations and transitions.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Backend
+- **Python (Flask/FastAPI)**: Provides the backend AI logic and real-time responses.
+- **OpenAI API (or any other AI service)**: Powers the AI tutor's responses with intelligent learning mechanisms.
 
-### `npm test`
+### Database
+- **MongoDB/PostgreSQL**: For storing user progress, interactions, and learning data.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Installation
 
-### `npm run build`
+### Prerequisites
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- **Node.js** and **npm**: For the frontend React setup.
+- **Python** (version 3.7 or higher): For running the backend API.
+- **MongoDB/PostgreSQL**: For database management.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### 1. Clone the repository
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-=======
-# AI-TutorPro
->>>>>>> 109a0e19b360b4eed6825d11d910031288dd8992
+```bash
+git clone https://github.com/Sultan1211/AI-TutorPro.git
